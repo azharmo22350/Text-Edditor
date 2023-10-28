@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.AboutUsController">
+   <children>
+      <TextArea fx:id="txtArea" layoutX="5.0" layoutY="116.0" prefHeight="284.0" prefWidth="593.0" text="Product Version&#10;White Board Text Editor 0.1.01&#10;&#10;Build Information&#10;Date: 2023-08-21 14:07:40&#10;JavaFX Version: 20.0.1&#10;JavaFX Web: 19.0.2.1&#10;Java Version: 20, OpenJDK Runtime Environment" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="302.0" layoutY="39.0" prefHeight="39.0" prefWidth="284.0" text="White Board Text Editor" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="97.0" fitWidth="121.0" layoutX="51.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assert/text-editor-icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

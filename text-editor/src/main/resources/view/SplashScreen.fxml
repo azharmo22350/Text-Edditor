@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="root" prefHeight="209.0" prefWidth="642.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.SplashScreenController">
+   <children>
+      <TextArea layoutX="36.0" layoutY="42.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="97.0" prefWidth="572.0" style="-fx-background-color: black;" text="White Board Text Editor&#10;&#10;" wrapText="true">
+         <font>
+            <Font name="Noto Sans CJK JP Bold" size="31.0" />
+         </font>
+      </TextArea>
+      <Label alignment="CENTER_RIGHT" layoutX="445.0" layoutY="96.0" prefHeight="16.0" prefWidth="151.0" text="Version 0.1.01">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="155.0" fitWidth="167.0" layoutX="68.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assert/text-editor-icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
